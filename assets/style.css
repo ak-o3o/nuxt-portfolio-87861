@@ -1,0 +1,629 @@
+@charset "UTF-8";
+body {
+  color: #333;
+  text-align: left;
+}
+
+.readmore {
+  background-color: black;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ttl {
+  font-size: 32px;
+  font-family: Montserrat;
+  margin-bottom: 30px;
+}
+
+.footer {
+  padding: 15px 0;
+  background-color: #525252;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.main-copy {
+  color: #fff;
+  margin: 88px 149px 256px 800px;
+  /*top: 157-69=88*/
+}
+
+.main-copy p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-copy h1 {
+  font-size: 72px;
+  font-weight: 800;
+  font-family: Montserrat;
+}
+
+.main-copy .main-copy-txt1 {
+  font-family: YuGothic;
+  margin-bottom: 0px;
+}
+
+.fv-right {
+  font-family: Montserrat;
+  margin: 30px 58px 0 0;
+}
+
+.fv-right img {
+  width: 61px;
+  height: 13px;
+}
+
+#menu-bg {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+}
+
+#menu-bg.open {
+  display: block;
+}
+
+#menu-body {
+  margin: 0 auto;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 80%;
+  height: 100%;
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#menu-body.open {
+  -webkit-transform: translateX(60%);
+          transform: translateX(60%);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#menu-body ul {
+  margin-left: 60px;
+}
+
+#menu-body li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 30px 50px;
+  border-bottom: #333 solid 1px;
+}
+
+#menu-body li a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+#menu-body #menu-close {
+  width: 60px;
+  height: 13px;
+  margin: 36px 0px 130px 300px;
+}
+
+.fv {
+  height: 740px;
+  background-image: url("~@/assets/img/kv-img.png"), url("~@/assets/img/bg_kv.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 1100px 640px, 780px 737px;
+}
+
+.fv .fv-head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fv .fv-head .fv-logo {
+  margin: 30px 0 0 58px;
+}
+
+.fv .main-copy {
+  color: #fff;
+  margin: 88px 149px 256px 954px;
+  /*top: 157-69=88*/
+}
+
+.fv .main-copy p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fv .main-copy h1 {
+  font-size: 72px;
+  font-weight: 800;
+  font-family: Montserrat;
+}
+
+.fv .main-copy .main-copy-txt1 {
+  font-family: YuGothic;
+  margin-bottom: 0px;
+}
+
+.fv .main-copy .main-copy-txt2 {
+  font-family: Montserrat Medium;
+  margin-top: 0px;
+}
+
+.section-about {
+  position: relative;
+  padding-top: 123px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(80%, #fff), color-stop(20%, #f0f0f0), to(#f0f0f0));
+  background: linear-gradient(180deg, #fff 0%, #fff 80%, #f0f0f0 20%, #f0f0f0 100%);
+  /*上から下*/
+}
+
+.section-about .section-about-img {
+  text-align: center;
+}
+
+.section-about .section-about-img img {
+  width: 1100px;
+  height: 607px;
+}
+
+.section-about .section-about-txt {
+  border: #fff solid 1px;
+  width: 590px;
+  height: 387px;
+  background-color: #fff;
+  position: absolute;
+  right: 300px;
+  bottom: 150px;
+  left: 0;
+  margin: auto;
+}
+
+.section-about a {
+  margin: 0 0 50px 30px;
+}
+
+.section-about h2 {
+  padding: 50px 0 0 30px;
+  font-family: Montserrat;
+}
+
+.section-about p {
+  padding: 30px;
+  font-family: Noto Sans JP;
+}
+
+.section-w-c {
+  background-color: #f0f0f0;
+  padding: 80px 0 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-w-c p {
+  font-size: 16px;
+  font-family: YuGothic;
+}
+
+.section-w-c .secion-work {
+  margin-right: 60px;
+}
+
+.section-w-c .secion-work img {
+  width: 520px;
+  height: 350px;
+  margin-bottom: 27px;
+}
+
+.section-w-c .secion-work p {
+  margin-bottom: 28px;
+}
+
+.section-w-c .secion-culture img {
+  width: 520px;
+  height: 350px;
+  margin-bottom: 27px;
+}
+
+.section-w-c .secion-culture p {
+  margin-bottom: 28px;
+}
+
+.section-topics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 60px 170px;
+}
+
+.section-topics .section-topics-left {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.section-topics .section-topics-center {
+  margin-left: 300px;
+  text-align: center;
+}
+
+.section-topics .section-topics-center .topic-overview {
+  border-bottom: solid #dddddd 1px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 0;
+  width: 65vw;
+}
+
+.section-topics .section-topics-center .section-topics-center-ch {
+  display: inline-block;
+  text-align: left;
+}
+
+.section-topics .section-topics-right {
+  text-align: right;
+}
+
+.section-recruit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 0 120px 0;
+  background-color: #f0f0f0;
+}
+
+.section-recruit .section-recruit-left {
+  margin-left: 170px;
+}
+
+.section-recruit .section-recruit-left p {
+  font-weight: 16px;
+  font-family: YuGothic;
+  margin-bottom: 30px;
+  margin-right: 80px;
+}
+
+.section-recruit img {
+  width: 580px;
+  height: 390px;
+  margin-right: 170px;
+}
+
+.fv-about-us {
+  height: 460px;
+  background-image: url("~@/assets/img/aboutus_pc.png"), url("~@/assets/img/bg_kv.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 1100px 390px, 780px 460px;
+}
+
+.fv-about-us .fv-head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fv-about-us .fv-head .fv-logo {
+  margin: 30px 0 0 58px;
+}
+
+.vison {
+  margin: 0 170px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.vison .vision-txt {
+  display: inline-block;
+  text-align: left;
+}
+
+.vison h2 {
+  margin-bottom: 25px;
+}
+
+.vison h3 {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: YuGothic;
+  margin-bottom: 27px;
+}
+
+.vison p {
+  font-weight: 16px;
+  font-family: YuGothic;
+}
+
+.ceo {
+  margin: 0 170px;
+  padding-top: 120px;
+  position: relative;
+}
+
+.ceo .ceo-img {
+  position: absolute;
+  top: 120px;
+  left: -40px;
+  margin: auto;
+}
+
+.ceo img {
+  width: 420px;
+  height: 280px;
+}
+
+.ceo .ceo-txt {
+  margin: 0 0 0 auto;
+  width: 770px;
+  background-color: #f0f0f0;
+  margin-top: 144px;
+  padding: 120px 185px;
+}
+
+.ceo .ceo-txt p {
+  font-size: 16px;
+}
+
+.conpany {
+  padding-top: 120px;
+  margin: 0 170px;
+}
+
+.conpany h2 {
+  border-bottom: solid #dddddd 1px;
+  padding-bottom: 30px;
+}
+
+.conpany table {
+  margin: 0 0 0 auto;
+  width: 70%;
+}
+
+.conpany table td {
+  border-bottom: solid #dddddd 1px;
+  padding: 18px 0 18px 0;
+}
+
+.conpany .table-left {
+  font-weight: 16px;
+  font-family: YuGothic;
+  font-weight: bold;
+}
+
+.map {
+  margin: 0 170px;
+  padding-top: 40px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.fv-contact {
+  height: 460px;
+  background-image: url("~@/assets/img/photo-of-people-looking-on-tablet-1.png"), url("~@/assets/img/bg_kv.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 1100px 390px, 780px 460px;
+}
+
+.fv-contact .main-copy {
+  color: #fff;
+  margin: 70px 149px 256px 800px;
+  /*abountのみtopを変更*/
+}
+
+.fv-contact .fv-head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fv-contact .fv-head .fv-logo {
+  margin: 30px 0 0 58px;
+}
+
+.contact {
+  padding-top: 120px;
+  margin: 0 370px;
+  text-align: center;
+}
+
+.contact .contact-form {
+  display: inline-block;
+  text-align: left;
+}
+
+.contact .form-info {
+  padding-bottom: 50px;
+}
+
+.contact form {
+  width: 700px;
+}
+
+.contact form p {
+  margin-bottom: 1rem;
+}
+
+.contact form span {
+  font-size: 12px;
+  font-family: "Noto Sans JP Bold";
+  color: #fff;
+  background-color: #333333;
+  padding: 1px 5px;
+  margin-left: 25px;
+}
+
+.contact form input[type="text"] {
+  width: 100%;
+  border: solid #333333 1px;
+  height: 40px;
+}
+
+.contact form .form-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 42px;
+}
+
+.contact form .form-radio label {
+  margin-right: 50px;
+}
+
+.contact form .form-radio input[type="radio"] {
+  display: none;
+}
+
+.contact form .form-radio .radio01 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 30px;
+  position: relative;
+  width: auto;
+}
+
+.contact form .form-radio .radio01::before {
+  background: #fff;
+  border: 1px solid #231815;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 16px;
+  left: 5px;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+  width: 16px;
+}
+
+.contact form .form-radio .radio01::after {
+  background: #333333;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 10px;
+  left: 8px;
+  margin-top: -4px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  width: 10px;
+}
+
+.contact form .form-radio input[type="radio"]:checked + .radio01::after {
+  opacity: 1;
+}
+
+.contact form .form-txt-area {
+  margin-bottom: 42px;
+}
+
+.contact form textarea {
+  width: 100%;
+  border: solid #333333 1px;
+}
+
+.contact form h2 {
+  font-size: 16px;
+}
+
+.contact .form-under {
+  margin: 42px 0;
+  text-align: center;
+}
+
+.contact .form-under p {
+  margin-bottom: 42px;
+}
+
+.contact .form-under input {
+  padding: 10px 65px;
+}
+
+.contact .form-under input[type="checkbox"] {
+  display: none;
+}
+
+.contact .form-under .checkbox01 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 30px;
+  position: relative;
+  width: auto;
+}
+
+.contact .form-under .checkbox01::before {
+  background: #fff;
+  border: 1px solid #231815;
+  content: "";
+  display: block;
+  height: 16px;
+  left: 5px;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+  width: 16px;
+}
+
+.contact .form-under .checkbox01::after {
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  content: "";
+  display: block;
+  height: 9px;
+  left: 10px;
+  margin-top: -7px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 5px;
+}
+
+.contact .form-under input[type="checkbox"]:checked + .checkbox01::after {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
