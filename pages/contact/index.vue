@@ -77,6 +77,11 @@ export default {
   components:{
     FooterSection,
     HamburgerMenuSection,
+  },
+  head() {
+    return {
+      title: 'Cresta Contact'
+    }
   }
 }
 </script>

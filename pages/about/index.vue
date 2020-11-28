@@ -113,8 +113,14 @@ export default {
   components:{
     FooterSection,
     HamburgerMenuSection,
+  },
+  head() {
+    return {
+      title: 'Cresta About'
+    }
   }
-}
+}  
+
 </script>
 
 <style>

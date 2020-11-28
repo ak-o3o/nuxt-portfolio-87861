@@ -105,6 +105,11 @@ export default {
     FooterSection,
     HamburgerMenuSection,
   },
+  head() {
+    return {
+      title: 'Cresta Home'
+    }
+  }
 }
 </script>
 
