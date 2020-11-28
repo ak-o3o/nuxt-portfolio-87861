@@ -30,6 +30,16 @@ body {
   }
 }
 
+.fv-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .fv-logo {
+    margin: 30px 0 0 58px;
+  }
+}
+
 .main-copy {
   color: #fff;
   margin: 88px 149px 256px 800px; /*top: 157-69=88*/
@@ -121,15 +131,6 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: 1100px 640px, 780px 737px;
 
-  .fv-head {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-    .fv-logo {
-      margin: 30px 0 0 58px;
-    }
-  }
   .main-copy {
     color: #fff;
     margin: 88px 149px 256px 954px; /*top: 157-69=88*/
@@ -287,8 +288,6 @@ body {
     height: 390px;
     margin-right: 170px;
   }
-  .section-recruit-right {
-  }
 }
 
 //HOME pc----------------------------------------------------------
@@ -301,16 +300,6 @@ body {
   background-position: left top, right top;
   background-repeat: no-repeat, no-repeat;
   background-size: 1100px 390px, 780px 460px;
-
-  .fv-head {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-    .fv-logo {
-      margin: 30px 0 0 58px;
-    }
-  }
 }
 
 .vison {
@@ -411,33 +400,17 @@ body {
     color: #fff;
     margin: 70px 149px 256px 800px; /*abountのみtopを変更*/
   }
-
-  .fv-head {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-    .fv-logo {
-      margin: 30px 0 0 58px;
-    }
-  }
 }
 .contact {
   padding-top: 120px;
-  margin: 0 370px;
-  text-align: center;
-  .contact-form {
-    display: inline-block;
-    text-align: left;
-  }
+  width: 70%;
+  margin: 0 auto;
 
   .form-info {
     padding-bottom: 50px;
   }
 
   form {
-    width: 700px;
-
     p {
       margin-bottom: 1rem;
     }
@@ -455,6 +428,7 @@ body {
       width: 100%;
       border: solid #333333 1px;
       height: 40px;
+      padding: 2px;
     }
     .form-radio {
       display: flex;
