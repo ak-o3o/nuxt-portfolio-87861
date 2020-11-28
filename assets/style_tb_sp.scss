@@ -63,15 +63,8 @@ $bg-color: #f0f0f0;
       }
     }
     .main-copy {
-      color: #fff;
-      margin: 88px 149px 256px 954px; /*top: 157-69=88*/
-
-      .main-copy-txt1 {
-        margin-bottom: 0px;
-      }
-      .main-copy-txt2 {
-        margin-top: 0px;
-      }
+      //   margin: 88px 149px 256px 954px; /*top: 157-69=88*/
+      margin: 88px 149px 256px 440px; /*top: 157-69=88*/
     }
   }
 
@@ -155,7 +148,24 @@ $bg-color: #f0f0f0;
   //about tablet
   .fv-about-us {
     height: 460px;
+    background-image: url("~@/assets/img/about-main-tablet.png"),
+      url("~@/assets/img/bg_kv.png");
+    // background-size: 1100px 390px, 780px 460px;
     background-size: 580px 390px, 400px 460px;
+  }
+
+  .main-copy {
+    // margin: 88px 149px 256px 800px;
+    margin: 88px 0px 256px 340px;
+
+    p {
+      //   font-size: 20px;
+      font-size: 16px;
+    }
+    h1 {
+      //   font-size: 72px;
+      font-size: 52px;
+    }
   }
 
   .ceo {
@@ -213,6 +223,10 @@ $bg-color: #f0f0f0;
     background-image: url("~@/assets/img/contact-main-tablet.png"),
       url("~@/assets/img/bg_kv.png");
     background-size: 570px 390px, 400px 460px;
+
+    .main-copy {
+      margin: 70px 149px 256px 430px;
+    }
   }
   .contact {
     // width: 70%;
@@ -332,41 +346,34 @@ $bg-color: #f0f0f0;
   //HOME sp
   .fv {
     height: 890px;
-    background-size: 600px 640px, 560px 737px;
+    background-image: url("~@/assets/img/home-main-sp.png"),
+      url("~@/assets/img/bg_kv.png");
+    // background-size: 600px 640px, 560px 737px;
+    background-size: 287px 640px, 560px 737px;
 
     .main-copy {
-      color: #fff;
-      margin: 88px 149px 256px 954px; /*top: 157-69=88*/
+      //   margin: 88px 149px 256px 954px; /*top: 157-69=88*/
+      margin: 134px 30px 256px 135px; /*top: 157-69=88*/
 
       p {
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 16px;
       }
       h1 {
-        font-size: 72px;
-        font-weight: 800;
-        font-family: Montserrat;
-      }
-      .main-copy-txt1 {
-        font-family: YuGothic;
-        margin-bottom: 0px;
-      }
-      .main-copy-txt2 {
-        font-family: Montserrat Medium;
-        margin-top: 0px;
+        font-size: 52px;
       }
     }
   }
 
   .section-about {
     position: relative;
-    padding-top: 100px;
+    // padding-top: 100px;
+    padding-top: 74px;
     width: 100%;
 
     .section-about-txt {
       //   width: 590px;
       //   height: 380px;
-      width: 100%;
+      width: 95%;
       height: 430px;
 
       position: absolute;
@@ -450,8 +457,25 @@ $bg-color: #f0f0f0;
   .fv-about-us {
     height: 460px;
     background-image: url("~@/assets/img/about-main-sp.png"),
-      url("~@/assets/img/bg_kv.png");
+      url("~@/assets/img/bg_kv.png"), url("~@/assets/img/black-bg.png");
     background-size: 280px 390px, 200px 460px;
+
+    // background-position: left top, right top, left top;
+    // background-repeat: no-repeat, no-repeat, no-repeat;
+    // background-size: 280px 390px, 200px 460px, 280px 390px;
+  }
+  .main-copy {
+    // margin: 88px 149px 256px 800px;
+    margin: 88px 0px 256px 40px;
+
+    p {
+      //   font-size: 20px;
+      font-size: 16px;
+    }
+    h1 {
+      //   font-size: 72px;
+      font-size: 52px;
+    }
   }
 
   .vison {
@@ -537,7 +561,13 @@ $bg-color: #f0f0f0;
     background-image: url("~@/assets/img/contact-main-sp.png"),
       url("~@/assets/img/bg_kv.png");
     background-size: 280px 390px, 200px 460px;
+
+    .main-copy {
+      //   margin: 70px 149px 256px 800px;
+      margin: 70px 149px 256px 72px;
+    }
   }
+
   .contact {
     // width: 70%;
     width: 90%;
